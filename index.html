@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <form class="formulario">
+        <div>
+         <h2>Ingresa tu nombre</h2>   
+        <label for="first_ame">Nombre</label>
+        <input id="first_ame" name="first_name" placeholder="Ingresa tu nombre" required>
+        </div>
+         
+        <div>
+         <h2>Ingresa tu email</h2>   
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="tuemail@ejemplo.com" required>
+        </div>
+
+        <div>
+        <h2>Selecciona tus colores favoritos</h2>  
+        <label for="rojo">Rojo</label>
+        <input id="rojo" type="checkbox" name="color1">
+
+        <label for="amarillo">Amarillo</label>
+        <input id="amarillo" type="checkbox" name="color2">
+
+        <label for="azul">Azul</label>
+        <input id="azul" type="checkbox" name="color3">
+        </div>
+
+        <div>
+         <h2>¿Eres mayor de 18 años?</h2>
+        <label for="si">Si</label>
+        <input id="si" type="radio" name="radio1">
+
+        <label for="no">No</label>
+        <input id="no" type="radio" name="radio1">
+        </div>
+
+        <div>
+        <h2>Selecciona tu numero preferido</h2>
+        <label for="one">One</label>
+        <input id="one" type="radio" name="number1">
+
+        <label for="two">Two</label>
+        <input id="two" type="radio" name="number1">
+
+
+        <label for="three">Three</label>
+        <input id="three" type="radio" name="number1">
+
+
+        <label for="four">Four</label>
+        <input id="four" type="radio" name="number1">
+
+
+        <label for="five">Five</label>
+        <input id="five" type="radio" name="number1">
+
+
+        <label for="six">Six</label>
+        <input id="six" type="radio" name="number1">
+        </div>
+
+        <div>
+            <h3>¿De que país eres?</h3>
+            <label for="country">Paises</label>
+            <select id="country" name="country">
+              <option value="ar">Argentina</option>
+              <option value="mex">Mexico</option>
+              <option value="col">Colombia</option>
+            </select>
+        </div>
+
+        <div class="mensaje">
+            <h3>Escribe tu comentario</h3>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" placeholder="texto" required minlength="40" maxlength="300" class="texto"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html> 
